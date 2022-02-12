@@ -22,25 +22,25 @@ Below steps using Apache Spark 2.4 with DSE 6.8 via [BYOS support (Bring your ow
   - Build: 
     ```
     cd id-graph-loader
-    ./gradlew build 
+    ./gradlew build shadowJar
     ```
   - Generate the [byos.properties](https://docs.datastax.com/en/dse/6.8/dse-dev/datastax_enterprise/spark/byosGeneratingConfigFile.html)
   - Run:
   ```
   cd spark-2.4.8-bin-hadoop2.7/
-  bin/spark-submit --jars ~/dse-6.8.18/clients/dse-byos_2.11-6.8.18.jar --properties-file ~/dse-6.8.18/byos.properties --class com.datastax.examples.dsegf.Loader id-graph-loader-1.0-SNAPSHOT.jar <vertexJsonPath> <edgeJsonPath>
+  bin/spark-submit --jars ~/dse-6.8.18/clients/dse-byos_2.11-6.8.18.jar --properties-file ~/dse-6.8.18/byos.properties --class com.datastax.examples.dsegf.Loader id-graph-loader-1.0-SNAPSHOT-all.jar <vertexJsonPath> <edgeJsonPath>
   ```
 
 - **id-graph-resolver**
   - Build:
   ```
     cd id-graph-resolver
-    ./gradlew build 
+    ./gradlew build shadowJar
     ```
   - Run:
   ```
   cd spark-2.4.8-bin-hadoop2.7/
-  bin/spark-submit --jars /Users/saurabh.verma/Downloads/dse-6.8.18/clients/dse-byos_2.11-6.8.18.jar --properties-file /Users/saurabh.verma/Downloads/dse-6.8.18/byos.properties --class com.datastax.examples.dsegf.IDGResolver <toBeMatchedIDsPath.csv> <resolvedIDsOutputPath.csv>
+  bin/spark-submit --jars /Users/saurabh.verma/Downloads/dse-6.8.18/clients/dse-byos_2.11-6.8.18.jar --properties-file /Users/saurabh.verma/Downloads/dse-6.8.18/byos.properties --class com.datastax.examples.dsegf.IDGResolver id-graph-resolver-1.0-SNAPSHOT-all.jar <toBeMatchedIDsPath.csv> <resolvedIDsOutputPath.csv>
   ```
 ## Sample Data
 - The sample data for loading and resolution are located inside the `resources` folder of the loader and resolver modules
