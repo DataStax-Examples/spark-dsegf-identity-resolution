@@ -1,0 +1,11 @@
+idValue,idType,matchType,qualityHigherThan,country
+NI,device_id,device_id,0.5,FRA
+NI,device_id,google_cookie,0.7,FRA
+NI,device_id,appnexus_cookie,0.7,FRA
+NI,device_id,email_sha1,0.2,ESP
+DBxPe,google_cookie,google_cookie,0.6,ITA
+nonExisting,google_cookie,device_id,0,ITA
+yfIDcb,email_sha2,google_cookie,0.65,ESP
+yfIDcb,email_sha2,email_sha1,0.4,ESP
+nonExisting,device_id,device_id,0.1,FRA
+OwSs,appnexus_cookie,device_id,0.15,ESP

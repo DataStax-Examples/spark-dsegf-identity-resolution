@@ -1,0 +1,1046 @@
+[
+  {
+    "idValue1": "DBxPe",
+    "idType1": "google_cookie",
+    "idValue2": "SvNbw",
+    "idType2": "google_cookie",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.13
+  },
+  {
+    "idValue1": "DBxPe",
+    "idType1": "google_cookie",
+    "idValue2": "OwSs",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.16
+  },
+  {
+    "idValue1": "NI",
+    "idType1": "device_id",
+    "idValue2": "wKzp",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.87
+  },
+  {
+    "idValue1": "DBxPe",
+    "idType1": "google_cookie",
+    "idValue2": "rSzrS",
+    "idType2": "google_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.28
+  },
+  {
+    "idValue1": "yUQE",
+    "idType1": "appnexus_cookie",
+    "idValue2": "KxggD",
+    "idType2": "google_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.01
+  },
+  {
+    "idValue1": "YWv",
+    "idType1": "email_sha1",
+    "idValue2": "EQH",
+    "idType2": "email_sha1",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.92
+  },
+  {
+    "idValue1": "TcHgvl",
+    "idType1": "email_sha2",
+    "idValue2": "DITVox",
+    "idType2": "email_sha2",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.44
+  },
+  {
+    "idValue1": "itRc",
+    "idType1": "appnexus_cookie",
+    "idValue2": "KxggD",
+    "idType2": "google_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.72
+  },
+  {
+    "idValue1": "kEjD",
+    "idType1": "appnexus_cookie",
+    "idValue2": "sBDMW",
+    "idType2": "google_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.6
+  },
+  {
+    "idValue1": "itRc",
+    "idType1": "appnexus_cookie",
+    "idValue2": "hNO",
+    "idType2": "email_sha1",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.51
+  },
+  {
+    "idValue1": "vfYaoW",
+    "idType1": "email_sha2",
+    "idValue2": "ut",
+    "idType2": "device_id",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.4
+  },
+  {
+    "idValue1": "DBxPe",
+    "idType1": "google_cookie",
+    "idValue2": "yUQE",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.96
+  },
+  {
+    "idValue1": "wF",
+    "idType1": "device_id",
+    "idValue2": "rSzrS",
+    "idType2": "google_cookie",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.23
+  },
+  {
+    "idValue1": "sBDMW",
+    "idType1": "google_cookie",
+    "idValue2": "YWv",
+    "idType2": "email_sha1",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.71
+  },
+  {
+    "idValue1": "SvNbw",
+    "idType1": "google_cookie",
+    "idValue2": "YWv",
+    "idType2": "email_sha1",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.87
+  },
+  {
+    "idValue1": "DITVox",
+    "idType1": "email_sha2",
+    "idValue2": "hNO",
+    "idType2": "email_sha1",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.83
+  },
+  {
+    "idValue1": "ut",
+    "idType1": "device_id",
+    "idValue2": "hNO",
+    "idType2": "email_sha1",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.5
+  },
+  {
+    "idValue1": "ut",
+    "idType1": "device_id",
+    "idValue2": "yfIDcb",
+    "idType2": "email_sha2",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.07
+  },
+  {
+    "idValue1": "OwSs",
+    "idType1": "appnexus_cookie",
+    "idValue2": "NI",
+    "idType2": "device_id",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.13
+  },
+  {
+    "idValue1": "OwSs",
+    "idType1": "appnexus_cookie",
+    "idValue2": "ut",
+    "idType2": "device_id",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.21
+  },
+  {
+    "idValue1": "GZaYx",
+    "idType1": "google_cookie",
+    "idValue2": "wKzp",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.63
+  },
+  {
+    "idValue1": "Pq",
+    "idType1": "device_id",
+    "idValue2": "sBDMW",
+    "idType2": "google_cookie",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.74
+  },
+  {
+    "idValue1": "yfIDcb",
+    "idType1": "email_sha2",
+    "idValue2": "DITVox",
+    "idType2": "email_sha2",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.63
+  },
+  {
+    "idValue1": "SE",
+    "idType1": "device_id",
+    "idValue2": "Va",
+    "idType2": "device_id",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.92
+  },
+  {
+    "idValue1": "kEjD",
+    "idType1": "appnexus_cookie",
+    "idValue2": "XPqJPb",
+    "idType2": "email_sha2",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.82
+  },
+  {
+    "idValue1": "tZf",
+    "idType1": "email_sha1",
+    "idValue2": "hNO",
+    "idType2": "email_sha1",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.25
+  },
+  {
+    "idValue1": "IQTWUj",
+    "idType1": "email_sha2",
+    "idValue2": "wKzp",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.29
+  },
+  {
+    "idValue1": "IQTWUj",
+    "idType1": "email_sha2",
+    "idValue2": "NI",
+    "idType2": "device_id",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.65
+  },
+  {
+    "idValue1": "wKzp",
+    "idType1": "appnexus_cookie",
+    "idValue2": "Pq",
+    "idType2": "device_id",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.16
+  },
+  {
+    "idValue1": "GZaYx",
+    "idType1": "google_cookie",
+    "idValue2": "wKzp",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.03
+  },
+  {
+    "idValue1": "Va",
+    "idType1": "device_id",
+    "idValue2": "SvNbw",
+    "idType2": "google_cookie",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.61
+  },
+  {
+    "idValue1": "NI",
+    "idType1": "device_id",
+    "idValue2": "NI",
+    "idType2": "device_id",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.36
+  },
+  {
+    "idValue1": "EJ",
+    "idType1": "device_id",
+    "idValue2": "NI",
+    "idType2": "device_id",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.83
+  },
+  {
+    "idValue1": "NI",
+    "idType1": "device_id",
+    "idValue2": "YWv",
+    "idType2": "email_sha1",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.09
+  },
+  {
+    "idValue1": "KxggD",
+    "idType1": "google_cookie",
+    "idValue2": "wKzp",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.95
+  },
+  {
+    "idValue1": "SvNbw",
+    "idType1": "google_cookie",
+    "idValue2": "Pq",
+    "idType2": "device_id",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.43
+  },
+  {
+    "idValue1": "yfIDcb",
+    "idType1": "email_sha2",
+    "idValue2": "NI",
+    "idType2": "device_id",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.49
+  },
+  {
+    "idValue1": "OwSs",
+    "idType1": "appnexus_cookie",
+    "idValue2": "Pq",
+    "idType2": "device_id",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.83
+  },
+  {
+    "idValue1": "EJ",
+    "idType1": "device_id",
+    "idValue2": "OwSs",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.3
+  },
+  {
+    "idValue1": "DITVox",
+    "idType1": "email_sha2",
+    "idValue2": "EJ",
+    "idType2": "device_id",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.7
+  },
+  {
+    "idValue1": "OwSs",
+    "idType1": "appnexus_cookie",
+    "idValue2": "hNO",
+    "idType2": "email_sha1",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.94
+  },
+  {
+    "idValue1": "wM",
+    "idType1": "device_id",
+    "idValue2": "hNO",
+    "idType2": "email_sha1",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.44
+  },
+  {
+    "idValue1": "OwSs",
+    "idType1": "appnexus_cookie",
+    "idValue2": "wM",
+    "idType2": "device_id",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.2
+  },
+  {
+    "idValue1": "Pq",
+    "idType1": "device_id",
+    "idValue2": "SvNbw",
+    "idType2": "google_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.16
+  },
+  {
+    "idValue1": "wF",
+    "idType1": "device_id",
+    "idValue2": "wM",
+    "idType2": "device_id",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.97
+  },
+  {
+    "idValue1": "EJ",
+    "idType1": "device_id",
+    "idValue2": "IQTWUj",
+    "idType2": "email_sha2",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.94
+  },
+  {
+    "idValue1": "wM",
+    "idType1": "device_id",
+    "idValue2": "rSzrS",
+    "idType2": "google_cookie",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.62
+  },
+  {
+    "idValue1": "wKzp",
+    "idType1": "appnexus_cookie",
+    "idValue2": "Pq",
+    "idType2": "device_id",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.78
+  },
+  {
+    "idValue1": "GZaYx",
+    "idType1": "google_cookie",
+    "idValue2": "EQH",
+    "idType2": "email_sha1",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.92
+  },
+  {
+    "idValue1": "Pq",
+    "idType1": "device_id",
+    "idValue2": "rSzrS",
+    "idType2": "google_cookie",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.43
+  },
+  {
+    "idValue1": "DBxPe",
+    "idType1": "google_cookie",
+    "idValue2": "Pq",
+    "idType2": "device_id",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.33
+  },
+  {
+    "idValue1": "tZf",
+    "idType1": "email_sha1",
+    "idValue2": "TcHgvl",
+    "idType2": "email_sha2",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.58
+  },
+  {
+    "idValue1": "sBDMW",
+    "idType1": "google_cookie",
+    "idValue2": "NI",
+    "idType2": "device_id",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.85
+  },
+  {
+    "idValue1": "wF",
+    "idType1": "device_id",
+    "idValue2": "DBxPe",
+    "idType2": "google_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.68
+  },
+  {
+    "idValue1": "NI",
+    "idType1": "device_id",
+    "idValue2": "DBxPe",
+    "idType2": "google_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.93
+  },
+  {
+    "idValue1": "yfIDcb",
+    "idType1": "email_sha2",
+    "idValue2": "rSzrS",
+    "idType2": "google_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.29
+  },
+  {
+    "idValue1": "wKzp",
+    "idType1": "appnexus_cookie",
+    "idValue2": "wKzp",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.97
+  },
+  {
+    "idValue1": "EJ",
+    "idType1": "device_id",
+    "idValue2": "yfIDcb",
+    "idType2": "email_sha2",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.73
+  },
+  {
+    "idValue1": "vfYaoW",
+    "idType1": "email_sha2",
+    "idValue2": "SE",
+    "idType2": "device_id",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.72
+  },
+  {
+    "idValue1": "DITVox",
+    "idType1": "email_sha2",
+    "idValue2": "OwSs",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.13
+  },
+  {
+    "idValue1": "rSzrS",
+    "idType1": "google_cookie",
+    "idValue2": "wM",
+    "idType2": "device_id",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.92
+  },
+  {
+    "idValue1": "rSzrS",
+    "idType1": "google_cookie",
+    "idValue2": "rSzrS",
+    "idType2": "google_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.16
+  },
+  {
+    "idValue1": "ut",
+    "idType1": "device_id",
+    "idValue2": "SvNbw",
+    "idType2": "google_cookie",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.74
+  },
+  {
+    "idValue1": "TcHgvl",
+    "idType1": "email_sha2",
+    "idValue2": "vfYaoW",
+    "idType2": "email_sha2",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 1
+  },
+  {
+    "idValue1": "EJ",
+    "idType1": "device_id",
+    "idValue2": "EJ",
+    "idType2": "device_id",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.84
+  },
+  {
+    "idValue1": "tZf",
+    "idType1": "email_sha1",
+    "idValue2": "yfIDcb",
+    "idType2": "email_sha2",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.12
+  },
+  {
+    "idValue1": "GZaYx",
+    "idType1": "google_cookie",
+    "idValue2": "EQH",
+    "idType2": "email_sha1",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.05
+  },
+  {
+    "idValue1": "OwSs",
+    "idType1": "appnexus_cookie",
+    "idValue2": "Va",
+    "idType2": "device_id",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.95
+  },
+  {
+    "idValue1": "SvNbw",
+    "idType1": "google_cookie",
+    "idValue2": "GZaYx",
+    "idType2": "google_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.55
+  },
+  {
+    "idValue1": "wM",
+    "idType1": "device_id",
+    "idValue2": "EJ",
+    "idType2": "device_id",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.36
+  },
+  {
+    "idValue1": "itRc",
+    "idType1": "appnexus_cookie",
+    "idValue2": "SvNbw",
+    "idType2": "google_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.79
+  },
+  {
+    "idValue1": "tZf",
+    "idType1": "email_sha1",
+    "idValue2": "TcHgvl",
+    "idType2": "email_sha2",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.54
+  },
+  {
+    "idValue1": "YWv",
+    "idType1": "email_sha1",
+    "idValue2": "NI",
+    "idType2": "device_id",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.29
+  },
+  {
+    "idValue1": "wF",
+    "idType1": "device_id",
+    "idValue2": "SvNbw",
+    "idType2": "google_cookie",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.83
+  },
+  {
+    "idValue1": "yfIDcb",
+    "idType1": "email_sha2",
+    "idValue2": "YWv",
+    "idType2": "email_sha1",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.13
+  },
+  {
+    "idValue1": "KxggD",
+    "idType1": "google_cookie",
+    "idValue2": "sBDMW",
+    "idType2": "google_cookie",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.15
+  },
+  {
+    "idValue1": "KxggD",
+    "idType1": "google_cookie",
+    "idValue2": "TcHgvl",
+    "idType2": "email_sha2",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.12
+  },
+  {
+    "idValue1": "EQH",
+    "idType1": "email_sha1",
+    "idValue2": "yUQE",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.75
+  },
+  {
+    "idValue1": "YWv",
+    "idType1": "email_sha1",
+    "idValue2": "itRc",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.04
+  },
+  {
+    "idValue1": "YWv",
+    "idType1": "email_sha1",
+    "idValue2": "wKzp",
+    "idType2": "appnexus_cookie",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.49
+  },
+  {
+    "idValue1": "wF",
+    "idType1": "device_id",
+    "idValue2": "ut",
+    "idType2": "device_id",
+    "dpList": [
+      3,
+      4,
+      5
+    ],
+    "quality": 0.01
+  },
+  {
+    "idValue1": "wKzp",
+    "idType1": "appnexus_cookie",
+    "idValue2": "DITVox",
+    "idType2": "email_sha2",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.56
+  },
+  {
+    "idValue1": "Va",
+    "idType1": "device_id",
+    "idValue2": "EJ",
+    "idType2": "device_id",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.96
+  },
+  {
+    "idValue1": "DBxPe",
+    "idType1": "google_cookie",
+    "idValue2": "TcHgvl",
+    "idType2": "email_sha2",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.8
+  },
+  {
+    "idValue1": "IQTWUj",
+    "idType1": "email_sha2",
+    "idValue2": "KxggD",
+    "idType2": "google_cookie",
+    "dpList": [
+      1,
+      2,
+      3
+    ],
+    "quality": 0.9
+  },
+  {
+    "idValue1": "SE",
+    "idType1": "device_id",
+    "idValue2": "TcHgvl",
+    "idType2": "email_sha2",
+    "dpList": [
+      2,
+      3,
+      4
+    ],
+    "quality": 0.16
+  },
+  {
+    "idValue1": "NI",
+    "idType1": "device_id",
+    "idValue2": "tZf",
+    "idType2": "email_sha1",
+    "dpList": [
+      4,
+      5,
+      1
+    ],
+    "quality": 0.19
+  }
+]
