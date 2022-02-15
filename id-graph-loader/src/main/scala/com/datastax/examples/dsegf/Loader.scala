@@ -1,8 +1,7 @@
 package com.datastax.examples.dsegf
 
 import com.datastax.bdp.graph.spark.graphframe._
-import com.datastax.driver.dse.DseSession
-import com.datastax.driver.dse.graph.{GraphProtocol, SimpleGraphStatement}
+import com.datastax.dse.driver.api.core.graph.ScriptGraphStatement
 import com.datastax.spark.connector.cql.CassandraConnector
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions.{col, lit}
@@ -82,12 +81,11 @@ object Loader {
   }
 
   def setupIDGSchema(graphName: String, spark: SparkSession): Unit = {
-    val session = CassandraConnector(spark.sparkContext).withSessionDo(session => session.asInstanceOf[DseSession])
-    session.getCluster.getConfiguration.getGraphOptions.setGraphSubProtocol(GraphProtocol.GRAPHSON_3_0)
-
-    session.executeGraph(s"system.graph('$graphName').ifExists().drop()")
-    session.executeGraph(s"system.graph('$graphName').ifNotExists().create()")
-    val schema = Source.fromInputStream(getClass.getResourceAsStream("/coreGraphSchema.txt")).getLines.mkString
-    session.executeGraph(new SimpleGraphStatement(schema).setGraphName(graphName))
+    val session = CassandraConnector(spark.sparkContext).withSessionDo(session => {
+      session.execute(ScriptGraphStatement.builder(s"system.graph('$graphName').ifExists().drop()").build())
+      session.execute(ScriptGraphStatement.builder(s"system.graph('$graphName').ifNotExists().create()").build())
+      val schema = Source.fromInputStream(getClass.getResourceAsStream("/coreGraphSchema.txt")).getLines.mkString
+      session.execute(ScriptGraphStatement.builder(schema).setGraphName(graphName).build())
+    })
   }
 }

@@ -1,5 +1,5 @@
 # spark-dsegf-identity-resolution
-Identity Resolution using Spark 2.4 and DSE GraphFrames (DSE v6.8) with BYOS
+Identity Resolution using Spark 3.1 and DSE GraphFrames (DSE v6.8) with BYOS
 
 ## What is Identity Resolution
 - Identity resolution (IDR) is the process of matching identifiers across devices and touchpoints to a single profile which helps build a cohesive, omnichannel view of a consumer, enabling brands to deliver relevant messaging throughout the customer journey
@@ -8,7 +8,7 @@ Identity Resolution using Spark 2.4 and DSE GraphFrames (DSE v6.8) with BYOS
 ![](IDGraphVisualization.png)
 
 ## Whats in this demo
-Below steps using Apache Spark 2.4 with DSE 6.8 via [BYOS support (Bring your own spark)](https://docs.datastax.com/en/dse/6.8/dse-dev/datastax_enterprise/spark/byosIntro.html)
+Below steps using Apache Spark 3.1 with DSE 6.8 via [BYOS support (Bring your own spark)](https://docs.datastax.com/en/dse/6.8/dse-dev/datastax_enterprise/spark/byosIntro.html)
 - Populating the IDG using JSON identifier data sets (**id-graph-loader**)
 - Computing the count of identifiers that are connected to a set of input identifiers via IDG (**id-graph-resolver**)
 - Exporting the matched identifiers that are connected to a set of input identifiers via IDG (**id-graph-resolver**)
@@ -22,13 +22,13 @@ Below steps using Apache Spark 2.4 with DSE 6.8 via [BYOS support (Bring your ow
   - Build: 
     ```
     cd id-graph-loader
-    ./gradlew build 
+    ./gradlew build shadowJar
     ```
   - Generate the [byos.properties](https://docs.datastax.com/en/dse/6.8/dse-dev/datastax_enterprise/spark/byosGeneratingConfigFile.html)
   - Run:
   ```
-  cd spark-2.4.8-bin-hadoop2.7/
-  bin/spark-submit --jars ~/dse-6.8.18/clients/dse-byos_2.11-6.8.18.jar --properties-file ~/dse-6.8.18/byos.properties --class com.datastax.examples.dsegf.Loader id-graph-loader-1.0-SNAPSHOT.jar <vertexJsonPath> <edgeJsonPath>
+  cd spark-3.1.2-bin-hadoop3.2/
+  bin/spark-submit --properties-file ~/dse-6.8.18/byos.properties --class com.datastax.examples.dsegf.Loader id-graph-loader-1.0-SNAPSHOT-all.jar <vertexJsonPath> <edgeJsonPath>
   ```
 
 - **id-graph-resolver**
@@ -39,8 +39,8 @@ Below steps using Apache Spark 2.4 with DSE 6.8 via [BYOS support (Bring your ow
     ```
   - Run:
   ```
-  cd spark-2.4.8-bin-hadoop2.7/
-  bin/spark-submit --jars /Users/saurabh.verma/Downloads/dse-6.8.18/clients/dse-byos_2.11-6.8.18.jar --properties-file /Users/saurabh.verma/Downloads/dse-6.8.18/byos.properties --class com.datastax.examples.dsegf.IDGResolver <toBeMatchedIDsPath.csv> <resolvedIDsOutputPath.csv>
+  cd spark-3.1.2-bin-hadoop3.2/
+  bin/spark-submit --properties-file /Users/saurabh.verma/Downloads/dse-6.8.18/byos.properties --class com.datastax.examples.dsegf.IDGResolver id-graph-resolver-1.0-SNAPSHOT-all.jar <toBeMatchedIDsPath.csv> <resolvedIDsOutputPath.csv>
   ```
 ## Sample Data
 - The sample data for loading and resolution are located inside the `resources` folder of the loader and resolver modules

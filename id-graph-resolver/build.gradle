@@ -1,5 +1,7 @@
 plugins {
     id 'scala'
+
+    id 'com.github.johnrengelman.shadow' version '6.1.0'
 }
 
 group 'org.datastax.examples'
@@ -8,21 +10,35 @@ version '1.0-SNAPSHOT'
 repositories {
     maven {
         url "https://repo.datastax.com/public-repos/"
+        metadataSources {
+            mavenPom()
+            artifact()
+        }
+    }
+    maven {
+        url = "https://repos.spark-packages.org/"
     }
     mavenCentral()
 }
 
-def scalaVersion = '2.11'
+def scalaVersion = '2.12'
 def dseVersion = '6.8.19'
-def sparkVersion = '2.4.8'
+def sparkVersion = '3.1.2'
 
 dependencies {
-    compileOnly("com.datastax.dse:dse-byos_${scalaVersion}:${dseVersion}")
     compileOnly("org.apache.spark:spark-core_${scalaVersion}:${sparkVersion}")
     compileOnly("org.apache.spark:spark-sql_${scalaVersion}:${sparkVersion}")
     compileOnly("org.apache.spark:spark-hive_${scalaVersion}:${sparkVersion}")
 
-    implementation('org.scala-lang:scala-library:2.11.12')
+    implementation('org.scala-lang:scala-library:2.12.10')
+    implementation("com.datastax.dse:dse-byos-graphframes:0.0.1")
+    implementation("com.datastax.spark:spark-cassandra-connector_2.12:3.1.0")
+    implementation("com.datastax.oss:java-driver-core-shaded:4.12.0")
+    implementation("graphframes:graphframes:0.8.2-spark3.1-s_2.12")
+}
+
+shadowJar {
+    relocate 'com.google.common', 'shadow.com.google.common'
 }
 
 test {
