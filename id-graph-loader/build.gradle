@@ -15,6 +15,9 @@ repositories {
             artifact()
         }
     }
+    maven {
+        url = "https://repos.spark-packages.org/"
+    }
     mavenCentral()
 }
 
@@ -28,9 +31,10 @@ dependencies {
     compileOnly("org.apache.spark:spark-hive_${scalaVersion}:${sparkVersion}")
 
     implementation('org.scala-lang:scala-library:2.12.10')
-    implementation("com.datastax.dse:dse-byos-graphframes:0.0.1")
+    implementation("com.datastax.dse:dse-byos-graphframes:0.0.3:all")
     implementation("com.datastax.spark:spark-cassandra-connector_2.12:3.1.0")
     implementation("com.datastax.oss:java-driver-core-shaded:4.12.0")
+    implementation("graphframes:graphframes:0.8.2-spark3.1-s_2.12")
 }
 
 shadowJar {
