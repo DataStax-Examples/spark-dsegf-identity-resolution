@@ -3,7 +3,6 @@ package com.datastax.examples.dsegf
 import com.datastax.bdp.graph.spark.graphframe._
 import com.datastax.examples.dsegf.resolvers.ConnectedComponentBasedResolver
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.types.{DoubleType, StringType, StructType}
 
 object IDGResolver {
   def main(args: Array[String]): Unit = {
@@ -35,6 +34,6 @@ object IDGResolver {
     println("Resolved ID Match Distribution By IDType")
     Aggregators.getOutputMatchRates(resolvedDF)(spark).show(false)
 
-    resolvedDF.coalesce(1).write.mode("overwrite").option("header",true).csv(resolvedIDsOutputPath)
+    resolvedDF.coalesce(1).write.mode("overwrite").option("header", true).csv(resolvedIDsOutputPath)
   }
 }
