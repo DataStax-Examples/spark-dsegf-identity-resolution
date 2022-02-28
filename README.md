@@ -35,7 +35,7 @@ Below steps using Apache Spark 3.1 with DSE 6.8 via [BYOS support (Bring your ow
   - Build:
   ```
     cd id-graph-resolver
-    ./gradlew build 
+    ./gradlew build shadowJar
     ```
   - Run:
   ```
